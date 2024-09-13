@@ -1,0 +1,52 @@
+@import './colors.scss';
+@import './ui/productCard/productCard.scss';
+@import './components/addToCartBtn/addToCartBtn.scss';
+@import './components/header/header.scss';
+@import './components/sliderBtns/sliderBtns.scss';
+@import './ui/productsSlider/productsSlider.scss';
+@import './components/productTitle/productTitle.scss';
+@import './components/productInfo/productInfo.scss';
+@import './components/productRating/productRating.scss';
+@import './components/productImg/productImg.scss';
+@import './components/spinner/spinner.scss';
+@import './components/errorMsg/errorMsg.scss';
+@import './components/thumbnail/thumbnail.scss';
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: $dark-grey-24;
+	background-color: $grey-85;
+	height: 100vh;
+}
+
+.heading_3 {
+	font-weight: 400;
+	line-height: 121.071%;
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+	.heading_3 {
+		font-size: 1.8rem;
+	}
+}

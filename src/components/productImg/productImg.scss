@@ -1,0 +1,39 @@
+.product-card {
+	&__img-container {
+		width: 100%;
+		height: 260px;
+		background-color: $grey-95;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: fill;
+			object-position: center;
+			box-shadow: -5px 0px 10px rgba(61, 61, 61, 0.25);
+		}
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 767px) {
+	.product-card {
+		&__img-container {
+			display: flex;
+			justify-content: center;
+			img {
+				width: 50%;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.product-card {
+		&__img-container {
+			height: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

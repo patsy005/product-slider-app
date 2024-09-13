@@ -1,0 +1,14 @@
+.thumbnail {
+	color: $dark-grey-24;
+	color: $primary-dark;
+
+	p {
+		margin-bottom: 0 !important;
+		font-size: 1.4rem;
+	}
+
+	.current {
+		color: $primary;
+		font-weight: 700;
+	}
+}

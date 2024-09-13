@@ -1,0 +1,10 @@
+.product-card {
+    &__rating {
+		&--top {
+			p {
+				color: $primary-dark;
+				font-weight: 800;
+			}
+		}
+	}
+}

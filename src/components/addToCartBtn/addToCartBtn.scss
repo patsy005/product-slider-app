@@ -1,0 +1,25 @@
+.addToCartBtn {
+	background: $primary;
+	box-shadow: 0px 6px 6px 0px rgba(61, 61, 61, 0.25);
+	color: $white;
+	font-size: 1.4rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	padding: 1rem;
+	border: none;
+	font-family: inherit;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background: $primary-dark;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.addToCartBtn {
+		font-size: 1.6rem;
+		padding: 1.5rem;
+	}
+}
